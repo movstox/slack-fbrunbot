@@ -1,0 +1,16 @@
+{
+  "name": "slack-fbrunbot",
+  "description": "Simple Slack bot",
+  "repository": "https://bitbucket.org/movstox/slack-fbrunbot",
+  "keywords": ["ruby", "slack"],
+  "env": {
+    "SLACK_API_TOKEN": {
+      "description": "A slack bot key"
+    },
+  },
+  "addons": [
+    "logentries:le_tryit",
+    "airbrake:free_heroku"
+  ]
+}
+
